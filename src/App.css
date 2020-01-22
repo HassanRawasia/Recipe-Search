@@ -1,0 +1,77 @@
+.App {
+  min-height: 100vh;
+  /*background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%); (Not using this for now at least*/
+}
+
+.background {
+  background-image: url('./ingredients.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 2;
+}
+
+.background-overlay {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 7;
+}
+
+.afterSearchBackground {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.title{
+  text-align: center;
+  color: rgb(3, 182, 206);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description {
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.searchForm {
+min-height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.searchBar {
+  width: 50%;
+  border: 3px solid rgb(247, 134, 12);
+  border-right: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: rgb(247, 134, 12);  
+}
+
+.searchButton {
+  width: 75px;
+  height: 41px;
+  border: 1px solid rgb(247, 134, 12);
+  background: rgb(247, 134, 12);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

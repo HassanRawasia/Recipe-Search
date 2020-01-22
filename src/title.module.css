@@ -1,0 +1,22 @@
+.topbar {
+    margin: 0px;
+    background:white;
+    align-items: center;
+    min-width: 100%;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    color:rgb(247, 134, 12);  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+  }
+
+  .description {
+    text-align: center;
+    color: rgb(247, 134, 12);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
